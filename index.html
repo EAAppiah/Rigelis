@@ -45,14 +45,16 @@
             class="flex justify-center items-center gap-x-2 lg:justify-normal"
           >
             <i class="ri-map-pin-2-fill text-2xl text-accent"></i>
-            <div class="text-secondary lg:text-sm">1 La Bawaleshie Rd, Accra, Ghana</div>
+            <div class="text-secondary lg:text-sm">
+              1 La Bawaleshie Rd, Accra, Ghana
+            </div>
           </div>
           <!-- Phone -->
           <div
             class="flex justify-center items-center gap-x-2 lg:justify-normal"
           >
             <i class="ri-phone-fill text-2xl text-accent"></i>
-            <div class="text-secondary lg:text-sm">(+233) 537-29-1557</div>
+            <div class="text-secondary lg:text-sm">(+233) 30 255-4857</div>
           </div>
           <!-- btn -->
           <button
@@ -204,10 +206,12 @@
       <div class="container mx-auto h-full">
         <!-- Content -->
         <div
-          class="flex flex-col xl:flex-row items center justify-between h-full"
+          class="flex flex-col items center justify-between h-full xl:flex-row"
         >
           <!-- Message -->
-          <div class="hero__text xl:w-[48%] text-center lg:text-left lg:w-[48%] xl:text-left">
+          <div
+            class="hero__text text-center lg:text-left lg:w-[48%] xl:text-left xl:w-[48%]"
+          >
             <!-- Badge -->
             <div
               class="flex items-center bg-white py-[10px] px-[20px] w-max gap-x-2 mb-[26px] rounded-full mx-auto lg:mx-0 file:xl:mx-0"
@@ -221,27 +225,187 @@
               </div>
             </div>
             <!-- Title -->
-            <h1 class="h1 mb-6 font-secondary xl:text-balance">Pharmacy management made simple!</h1>
+            <h1 class="h1 mb-6 font-secondary xl:text-balance">
+              Pharmacy management made simple!
+            </h1>
             <!-- Description -->
-            <p class="mb-[42px] md:max-w-xl text-balance">
-              Welcome to Team Rigelis, where we are committed to developing the
-              world's leading operating system specifically designed for the
-              last-mile distribution and management of finished pharmaceutical
-              products.
+            <p
+              class="mb-[42px] md:max-w-xl lg:max-2xl lg:text-wrap xl:text-balance"
+            >
+              Contact us today to discover how our innovative solution can
+              streamline the day-to-day management of your pharmacy, providing
+              you with unparalleled efficiency and accuracy
             </p>
             <!-- Btn -->
-            <button class="btn btn-lg btn-accent mx-auto xl:mx-0 lg:mx-0">Contact us</button>
+            <button class="btn btn-lg btn-accent mx-auto xl:mx-0 lg:mx-0">
+              Contact us
+            </button>
           </div>
           <!-- Image -->
-          <div class="hero__img hidden lg:flex xl:flex max-w-[814px] self-end">
+          <div
+            class="hero__img hidden max-w-[814px] self-end lg:flex-wrap lg:items-center xl:flex"
+          >
             <img src="images/heku3.png" alt="Gloria Heku" />
           </div>
         </div>
       </div>
     </section>
 
-    <!--  -->
+    <!-- Stats Section -->
+    <section class="stats section">
+      <div class="container mx-auto">
+        <!-- Wrapper -->
+        <div class="flex flex-col xl:flex-row gap-y-6 justify-between">
+          <!-- Item -->
+          <div
+            class="stats__item flex-1 xl:border-r flex flex-col items-center"
+          >
+            <div
+              class="text-4xl xl:text-[64px] font-semibold text-accent-tertiary xl:mb-2"
+            >
+              +50
+            </div>
+            <div class="">Happy Clients</div>
+          </div>
+          <!-- Item -->
+          <div
+            class="stats__item flex-1 xl:border-r flex flex-col items-center"
+          >
+            <div
+              class="text-4xl xl:text-[64px] font-semibold text-accent-tertiary xl:mb-2"
+            >
+              5
+            </div>
+            <div class="">Active Regions</div>
+          </div>
+          <!-- Item -->
+          <div
+            class="stats__item flex-1 xl:border-r flex flex-col items-center"
+          >
+            <div
+              class="text-4xl xl:text-[64px] font-semibold text-accent-tertiary xl:mb-2"
+            >
+              +10
+            </div>
+            <div class="">Experienced Staff</div>
+          </div>
+          <!-- Item -->
+          <div class="stats__item flex-1 flex flex-col items-center">
+            <div
+              class="text-4xl xl:text-[64px] font-semibold text-accent-tertiary xl:mb-2"
+            >
+              +50
+            </div>
+            <div class="">Happy Clients</div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Services Section -->
+    <div class="services">
+      <!-- bg -->
+      <div
+        class="bg-services bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative h-[368px] flex items-center xl:items-start -z-10"
+      >
+        <div class="container mx-auto">
+          <!-- text -->
+          <div
+            class="services__top flex items-center flex-col xl:flex-row xl:mb-[60px]"
+          >
+            <h2
+              class="h2 text-white flex-1 mb-4 xl:mb-0 text-center xl:text-left"
+            >
+              What you get with RigelOS?
+            </h2>
+            <p
+              class="text-white flex-1 text-center xl:text-left max--w-2xl xl;max-w-none"
+            >
+              Welcome to Team Rigelis, where we are committed to developing the
+              world's leading operating system specifically designed for the
+              last-mile distribution and management of finished pharmaceutical
+              products. Introducing our proprietary operating system, RigelOS™,
+              which is tailored to bring simplicity, efficiency, and precision
+              to retail pharmacy operations.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Grid Container -->
+      <div class="container mx-auto mt-8 xl:-mt-[144px]">
+        <!-- Grid -->
+        <div class="grid xl:grid-cols-4 gap-5 px-8 xl:px-8">
+          <!-- Grid Item-->
+          <div
+            class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center"
+          >
+            <!-- Grid Item Icon -->
+            <div class="mb-[15px]">
+              <img src="./assets/services/icon-api.svg" alt="icon-api" />
+            </div>
+            <!-- grid item title -->
+            <h3 class="h3 mb-[10px]">
+              Experience the Freedom of Rigel OS -Offline First, No Internet
+              Required!
+            </h3>
+            <!-- grid item description -->
+            <p class="font-light leading-normal max-w-[300px]">
+              Rigel OS offers you the ultimate convenience - you don't need the
+              internet to make it work! You can deploy it fully offline, and
+              only occasionally connect to the internet for updates, backups, or
+              remote access for managers and owners. Even in the rare event of
+              an internet outage, our in-pharmacy software keeps running
+              smoothly with all its features intact.
+            </p>
+          </div>
+          <!-- Grid Item-->
+          <div
+            class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center"
+          >
+            <!-- Grid Item Icon -->
+            <div class="mb-[15px]">
+              <img
+                src="./assets/services/icon-onboarding.svg"
+                alt="icon-onboarding"
+              />
+            </div>
+            <!-- grid item title -->
+            <h3 class="h3 mb-[10px]">Smart Inter Pharmacy Product Transfer.</h3>
+            <!-- grid item description -->
+            <p class="font-light leading-normal max-w-[300px]">
+              Experience seamless and efficient inter-pharmacy product transfers
+              with our proprietary Smart Inter-Pharmacy Product Transfer
+              feature. Eliminate concerns about variations in names or units as
+              RigelOS simplifies the process. Initiate the transfer, and let
+              RigelOS handle the rest.
+            </p>
+          </div>
+          <!-- Grid Item-->
+          <div
+            class="services__item bg-white p-[30px] rounded-[10px] shadow-custom2 min-h-[288px] flex flex-col items-center text-center"
+          >
+            <!-- Grid Item Icon -->
+            <div class="mb-[15px]">
+              <img src="./assets/services/icon-online.svg" alt="icon-online" />
+            </div>
+            <!-- grid item title -->
+            <h3 class="h3 mb-[10px]">
+              Dedicated customer support team at your service.
+            </h3>
+            <!-- grid item description -->
+            <p class="font-light leading-normal max-w-[300px]">
+              We are here to help with any troubleshooting issues you might
+              encounter. We'll make sure you and your staff are well-trained in
+              using the software, and we even offer refresher training if
+              needed.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Temp Div -->
+    <div class="h-[4000ox]"></div>
     <!-- Swiper js -->
     <script src="js/swiper-bundle.min.js"></script>
     <!-- Scroll Reveal js -->
@@ -249,4 +413,5 @@
     <!-- Main js -->
     <script src="js/main.js"></script>
   </body>
+  s
 </html>

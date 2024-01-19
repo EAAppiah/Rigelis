@@ -33,7 +33,7 @@ module.exports = {
         custom2: '0px 0px 30px 0px rgba(8, 73, 81, 0.06)',
       },
       backgroundImage: {
-        // services:
+        services: "url('/assets/services/bg.svg')",
         // testimonial1
         // testimonial2
         // staff_Quao
@@ -43,7 +43,7 @@ module.exports = {
         // Staff_Appiah
         // Staff_Crentsil
         // Application
-      }
+      },
     },
   },
   plugins: [],
