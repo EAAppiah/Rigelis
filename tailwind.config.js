@@ -23,6 +23,12 @@ module.exports = {
           tertiary: '#910A67',
         },
         grey: '#e8f0f1',
+        brightRed: 'hsl(12, 88%, 59%)',
+        darkBlue: 'hsl(228, 39%, 23%)',
+        darkGrayishBlue: 'hsl(227, 12%, 61%)',
+        veryDarkBlue: 'hsl(233, 12%, 13%)',
+        veryPaleRed: 'hsl(13, 100%, 96%)',
+        veryLightGray: 'hsl(0, 0%, 98%)',
       },
       fontFamily: {
         primary: 'Poppins',
@@ -34,9 +40,9 @@ module.exports = {
       },
       backgroundImage: {
         services: "url('/assets/services/bg.svg')",
-        // testimonial1
-        // testimonial2
-        // staff_Quao
+        testimonial: "url('/assets/testimonials/bg.svg')",
+        quoteLeft: "url('/assets/testimonials/quote-left.svg')",
+        quoteRight: "url('/assets/testimonials/quote-right.svg')",
         // staff_Kusi
         // Staff_Apeku
         // Staff_Heku
